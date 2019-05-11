@@ -90,22 +90,6 @@ box-sizing: border-box;
 box-sizing: border-box;
 }
 
-#about, 
-#gallery,
-#contact,
-#blog, 
-#blog-single-post {
-padding-top: 60px;
-padding-bottom: 80px;
-}
-
-.main-about,
-.main-single-post,
-.main-gallery,
-.main-contact {
-height: 65vh;
-}
-
 .overlay {
 background: rgba(0,0,0,0.7 );
 width: 100%;
@@ -240,7 +224,7 @@ margin: 0;
 }
 
 .navbar-default .navbar-toggle .icon-bar {
-  background: #bfba55;
+  background: #52baff;
   border-color: transparent;
 }
 
@@ -249,29 +233,6 @@ margin: 0;
 background-color: transparent;
 }
 
-/*---------------------------------------
-  Home section              
------------------------------------------*/
-
-#top1 {
-  background-size: cover;
-  background-position: center center;
-  color: #ffffff;
-  display: -webkit-box;
-  display: -webkit-flex;
-   display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-  -ms-flex-align: center;
-   align-items: center;
-  position: relative;
-  text-align: center;
-}
-.main-top1 {
-  background: url('../images/monster-hunter.jpg') no-repeat;
-  height: 100vh;
-  }
 
 
 /*---------------------------------------
@@ -294,16 +255,11 @@ background-color: transparent;
   text-align: center;
 }
 
+
 .main-home {
 background: url('../images/home-bg.jpg') no-repeat;
 height: 100vh;
 }
-
-
-.main-about {
-background: url('../images/about-bg.jpg') no-repeat;
-}
-
 
 #particles-js {
 position: absolute;
@@ -314,7 +270,7 @@ left: 0;
 }
 
 #home h4 {
-color: #bfba55;
+color: #52baff;
 }
 
 #home .btn {
@@ -337,31 +293,52 @@ background: transparent;
 border-color: #ffffff;
 color: #ffffff;
 }
-
-
-
 /*---------------------------------------
- About section              
+  TOP1 section              
 -----------------------------------------*/
 
-#about .col-md-6 {
-padding-top: 22px;
-padding-bottom: 32px;
+#top1 {
+  background-size: cover;
+  background-position: center center;
+  color: #ffffff;
+  display: -webkit-box;
+  display: -webkit-flex;
+   display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+   align-items: center;
+  position: relative;
+  text-align: center;
 }
+.main-top1 {
+  background: url('../images/monster-hunter.jpg') no-repeat;
+  height: 100vh;
+  }
+/*---------------------------------------
+  About creator section              
+-----------------------------------------*/
 
-#about .col-md-6 img {
-padding: 22px 0px 22px 22px;
+#creator {
+  background-size: cover;
+  background-position: center center;
+  color: #ffffff;
+  display: -webkit-box;
+  display: -webkit-flex;
+   display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+   align-items: center;
+  position: relative;
+  text-align: center;
 }
-
-#about .col-md-4 {
-padding-bottom: 32px;
-}
-
-#about .col-md-4 img {
-padding-top: 12px;
-}
-
-
+.main-creator {
+  background: url('../images/me.jpg') no-repeat;
+  height: 100vh;
+  }
 
 /*---------------------------------------
  Gallery section              
@@ -436,7 +413,7 @@ height: 50px;
 }
 
 #contact input[type="submit"] {
-background: #bfba55;
+background: #52baff;
 border-radius: 100px;
 border: none;
 color: #ffffff;

@@ -8,5 +8,5 @@ https://fonts.googleapis.com/css?family=Lora|Merriweather:300,400
 1. https://www.free-css.com/free-css-templates
 2. ONOFF GAME by
 https://github.com/starzonmyarmz/js13k-2018#post-mortem
-3. Ranks game PS4
+3. Infomation Ranks game PS4
 https://www.gamerankings.com/ps4/index.html
