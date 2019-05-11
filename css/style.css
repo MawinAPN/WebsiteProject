@@ -467,11 +467,11 @@ border-radius: 1px;
 }
 
 .blog-post-title a {
-color: #222;
+color: rgb(255, 255, 255);
 }
 
 .blog-post-title a:hover {
-color: #bfba55;
+color: #52baff;
 }
 
 .blog-post-format {
@@ -508,7 +508,7 @@ transition: all 0.4s ease-in-out;
 }
 
 .blog-post-des .btn:hover {
-background: #bfba55;
+background: #52baff;
 border-color: transparent;
 color: #ffffff;
 }
